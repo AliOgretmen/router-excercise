@@ -1,9 +1,23 @@
+header{
+    border: 2px solid gray;
+    width: 400px;
+    height: 100px;
+    margin: 0 auto;
+    background: palevioletred;
+}
+header > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .main{
     display: flex;
 }
 .kanton-list{
     border: 2px solid red;
     padding: 10px;
+    margin-right: 5%;
 }
 ul{
     list-style-type:none;
