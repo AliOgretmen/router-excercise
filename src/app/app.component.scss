@@ -1,18 +1,27 @@
+.main{
+    padding: 20px;
+    background: rgb(241, 178, 198);
+}
+
 header{
     border: 2px solid gray;
     width: 400px;
-    height: 100px;
+    height: 50px;
     margin: 0 auto;
     background: palevioletred;
+    margin-top: 30px;
 }
 header > div{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 2em;
 }
 
-.main{
+.router-area{
     display: flex;
+    margin-top: 30px;
+    margin-left: 100px;
 }
 .kanton-list{
     border: 2px solid red;

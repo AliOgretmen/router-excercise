@@ -1,10 +1,14 @@
-<header><div>Switzerland Cities</div></header>
 <div class="main">
-<ul class="kanton-list">
-  <li *ngFor="let kanton of kantons" [routerLink]="[kanton]">
-   {{kanton}}
-  </li>
-</ul>
+<header>
+  <div>Switzerland Cities</div>
+</header>
+<div class="router-area">
+  <ul class="kanton-list">
+    <li *ngFor="let kanton of kantons" [routerLink]="[kanton]">
+      {{kanton}}
+    </li>
+  </ul>
 
-<router-outlet></router-outlet>
+  <router-outlet></router-outlet>
+</div>
 </div>
