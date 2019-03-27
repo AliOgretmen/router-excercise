@@ -1,7 +1,12 @@
-<ul>
-  <li *ngFor="let city of cities" [routerLink]="[city]">
-   {{city}}
-  </li>
-</ul>
-
+<div class="wrapper">
+<div>
+  <ul class="city-list">
+    <li *ngFor="let city of cities" [routerLink]="[city]">
+     {{city}}
+    </li>
+  </ul>
+</div>
+<div>
 <router-outlet></router-outlet>
+</div>
+</div>

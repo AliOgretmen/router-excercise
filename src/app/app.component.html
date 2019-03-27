@@ -1,8 +1,9 @@
-
-<ul>
+<div class="main">
+<ul class="kanton-list">
   <li *ngFor="let kanton of kantons" [routerLink]="[kanton]">
    {{kanton}}
   </li>
 </ul>
 
 <router-outlet></router-outlet>
+</div>
